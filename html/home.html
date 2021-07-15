@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../js/myCourse.js"></script>
+    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <header>
+        <a href="#"><img id="logoETQ" src="../img/ETQ_Logo_Black_vacature2_aae9e6ba-beff-414a-a3e3-098885de1fff.png"></a>
+        <nav>
+            <ul>
+                <li>TRANG CHỦ</li>
+                <li>BIỂU PHÍ</li>
+                <li>GIỚI THIỆU</li>
+                <li>CHÍNH SÁCH</li>
+                <li>HƯỚNG DẪN</li>
+                <li>KINH NGHIỆM</li>
+                <li>THÔNG BÁO</li>
+                <li>HÀNG VÔ CHỦ</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="owl-carousel owl-theme" id="slide">
+            <div class="item" >
+                <img src="../img/anhLogo1.jpg" />
+            </div>
+            <div class="item"><aasdfadfa>x`</aasdfadfa>
+                <img src="../img/anhLogo2.png" />
+            </div>
+            <div class="item">
+                <img src="../img/anhLogo3.jpg"/>
+            </div>
+        </div>
+        <div id="about">
+            <h2>ACHINA.VN CÓ GÌ?</h2>
+            <span>
+                - Vận chuyển chính ngạch TQ - VN đường bộ, đường biển
+            </span>
+            <span>
+                - Ghép cont CFS hàng hóa TQ - VN
+            </span>
+            <span>
+                - Vận chuyển hàng hóa trọn gói TQ - VN (Ký gửi)
+            </span>
+            <span>
+                - Mua hàng hộ - Order hàng Trung Quốc
+            </span>
+            <span>
+                - Đổi tệ - Thanh toán hộ
+            </span>
+            <span>
+                - Miễn phí tìm nguồn hàng
+            </span>
+            <span>
+                - Cho thuê tài khoản quảng cáo Google, Facebook giá cực tốt (chỉ cung cấp cho KH của Achina)
+            </span>
+            <span>
+                - Cung cấp túi gói hàng niêm phong, máy in nhiệt, giấy in nhiệt... giá cực tốt (chỉ cung cấp cho KH của Achina)
+            </span>
+            <div id="dat_hang_button">
+                <a href="#">NHẬN TƯ VẤN MIỄN PHÍ</a>
+                <a href="#">XEM BÁO GIÁ NGAY</a>
+            </div>
+        </div>
+        <div id="service">
+            <h1>DỊCH VỤ CỦA ACHINA</h1>
+            <span>
+                <a href="#">www.achina.vn</a> là giải pháp nhập hàng tối ưu cho quý khách. Chúng tôi mang lại cho khách hàng
+            </span>
+            <span>nguồn hàng phong phú với mức giá cực rẻ.</span>
+            <ul id="img-service">
+                <li>
+                    <img src="../img/service1.png" height="166" width="100%"/>
+                    <span>ĐẶT HÀNG SHIP HÀNG QUỐC TẾ</span>
+                </li>
+                <li>
+                    <img src="../img/service2.png" height="166" width="100%"/>
+                    <span>QUẢN LÝ ĐƠN HÀNG DỄ DÀNG</span>
+                </li>
+                <li>
+                    <img src="../img/service3.png" height="166" width="100%"/>
+                    <span>CHUYỂN HÀNG 2 CHIỀU TRUNG - VIỆT</span>
+                </li>
+                <li>
+                    <img src="../img/service4.png" height="166" width="100%"/>
+                    <span>GIAO HÀNG TẬN NƠI</span>
+                </li>
+                <li>
+                    <img src="../img/service5.png" height="166" width="100%"/>
+                    <span>NHÂN VIÊN TƯ VẤN CHUYÊN NGHIỆP</span>
+                </li>
+                <li>
+                    <img src="../img/service6.png" height="166" width="100%"/>
+                    <span>CHUYỂN, NẠP TIỀN ALIPAY, WECHAT</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <script src="../OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            items:1,
+            loop:true,
+            nav:false,
+            margin:10,
+            autoplay:true,
+            autoplayTimeout:3500,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                1000:{
+                    items:1
+                }
+            }
+        });
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel();
+        });
+    </script>
+</body>
+</html>
